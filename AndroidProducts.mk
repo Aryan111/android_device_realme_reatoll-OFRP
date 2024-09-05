@@ -17,4 +17,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_reatoll.mk
 
-COMMON_LUNCH_CHOICES := twrp_reatoll-eng
+COMMON_LUNCH_CHOICES := \
+    twrp_reatoll-user \
+    twrp_reatoll-userdebug \
+    twrp_reatoll-eng \
